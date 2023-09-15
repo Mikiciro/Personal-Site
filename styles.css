@@ -1,21 +1,114 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    text-align: center;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #213363;
+  line-height: 2;
+  font-weight: 400;
 }
 
-.container{
+h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+hr {
+  flex-grow: 1;
+  width: 10%;
+  border-top: 10px dotted #D2DE32;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;  
+}
+
+.top-container,
+.bottom-container {
+  background-color: #a2c579;
+  padding: 40px 0 40px 0;
+}
+
+.programmer,
+.profile-picture {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffdd;
+  padding: 40px;
+}
+
+.solving,
+.team {
+  width: 150px;
+  padding: 40px;
+}
+
+.fa-brands {
+  color: #213363;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #213363;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #495b8a;
+  text-decoration: none;
+}
+
+.skills{
     display: flex;
     flex-direction: column;
-    
-}
-.top-container{
-    background-color: #EBE4D1;
-    font-family: 'Ubuntu', sans-serif;
-    color: #26577C;
 }
 
-img{
-    background-image: none;
+.skill-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+.skill-row2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
 
