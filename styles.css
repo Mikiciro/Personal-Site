@@ -24,7 +24,7 @@ h3{
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -58,8 +58,9 @@ hr {
 .middle-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #ffffdd;
-  padding: 40px;
+  padding: 40px 20%;
 }
 
 .solving,
@@ -111,4 +112,16 @@ hr {
     text-align: left;
 }
 
+@media screen and (max-width: 425px) {
+  .skill-row{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .skill-row2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
